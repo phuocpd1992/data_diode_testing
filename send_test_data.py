@@ -48,6 +48,7 @@ while True:
         combined_string = "1" + str(index) + ',' + ','.join(map(str, batch))
         try:
             tcp.write_multiple_registers(0, transform_string_to_list(combined_string))
+            print(f"batch {index} : {combined_string}")
         except Exception:
             # Only print error once per batch instead of every number
             print(f"[Warning] Failed to write batch {index}")
