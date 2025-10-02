@@ -26,11 +26,11 @@ This project provides a Python script to test the functionality of a Data Diode 
 ---
 
 ## 📂 Project Structure
-data_diode_testing/
+```data_diode_testing/
 │-- send_test_data.py # Main entry point of the program
 │-- requirements.txt # List of required dependencies
 │-- README.md # Documentation
-
+```
 ---
 
 ## 🛠 Requirements
