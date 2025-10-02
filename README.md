@@ -34,5 +34,5 @@ This project provides a Python script to test the functionality of a Data Diode 
 ---
 
 ## 🛠 Requirements
-- Python 3.8+
+- Python 3.10+
 
