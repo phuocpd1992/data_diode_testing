@@ -1,6 +1,12 @@
 # Data Diode Testing
 
 This project provides a Python script to test the functionality of a Data Diode (one-way optical data isolation device).
+The default setting parameters of the Only Send Module:
+IP_HOST = "192.168.1.1"   # Modbus TCP server IP  
+PORT = 502                # Modbus TCP port  
+UNIT_ID = 1               # Modbus server Unit ID  
+TOTAL_ELEMENTS = 1000     # Total number of elements to process  
+MAX_REGISTER = 100        # Maximum registers per request  
 
 ---
 
